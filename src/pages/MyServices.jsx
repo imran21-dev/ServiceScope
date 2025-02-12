@@ -347,7 +347,7 @@ const MyServices = () => {
             animate={{ opacity: 1, scale: 1 }} 
             exit={{ opacity: 0, y: -50 }}
             transition={{ duration: 0.2 }}
-            className="lg:w-3/5  border bg-white rounded-2xl lg:p-4 shadow-lg flex flex-col "
+            className="lg:w-3/5  border bg-base-100 border-base-300 rounded-2xl lg:p-4 shadow-lg flex flex-col "
           >
             <div className="text-right pt-7 lg:pt-0 border-b ">
               <IconButton
@@ -358,7 +358,7 @@ const MyServices = () => {
                 }}
                 aria-label="delete"
               >
-                <IoMdClose />
+                <IoMdClose className="text-red-500"/>
               </IconButton>
             </div>
 
@@ -366,7 +366,7 @@ const MyServices = () => {
               <h1 className="text-lg md:text-2xl font-bold">
                 Update your Service Information
               </h1>
-              <p className="py-1 text-secondaryTextColor/50 md:pb-5 text-sm md:text-base">
+              <p className="py-1  md:pb-5 text-sm md:text-base">
                 Keep Your Service Up-to-Date
               </p>
 
@@ -378,7 +378,7 @@ const MyServices = () => {
                   <label className="label">
                     <span className="text-xs md:text-sm">Service Title</span>
                   </label>
-                  <div className="border flex items-center rounded-xl ">
+                  <div className="border border-base-300 flex items-center rounded-xl ">
                     <input
                       defaultValue={serviceTitleD}
                       type="text"
@@ -394,7 +394,7 @@ const MyServices = () => {
                   <label className="label">
                     <span className="text-xs md:text-sm">Service Image</span>
                   </label>
-                  <div className="border flex items-center rounded-xl ">
+                  <div className="border border-base-300 flex items-center rounded-xl ">
                     <input
                       defaultValue={serviceImageD}
                       type="url"
@@ -411,7 +411,7 @@ const MyServices = () => {
                     <label className="label">
                       <span className="text-xs md:text-sm">Company Name</span>
                     </label>
-                    <div className="border flex items-center rounded-xl ">
+                    <div className="border border-base-300 flex items-center rounded-xl ">
                       <input
                         defaultValue={companyNameD}
                         type="text"
@@ -427,7 +427,7 @@ const MyServices = () => {
                     <label className="label">
                       <span className="text-xs md:text-sm">Website URL</span>
                     </label>
-                    <div className="border flex items-center rounded-xl ">
+                    <div className="border border-base-300 flex items-center rounded-xl ">
                       <input
                         defaultValue={websiteD}
                         type="url"
@@ -443,7 +443,7 @@ const MyServices = () => {
                     <label className="label">
                       <span className="text-xs md:text-sm">Price</span>
                     </label>
-                    <div className="border flex items-center rounded-xl ">
+                    <div className="border border-base-300 flex items-center rounded-xl ">
                       <input
                         defaultValue={priceD}
                         type="number"
@@ -471,7 +471,7 @@ const MyServices = () => {
                   <label className="label">
                     <span className="text-xs md:text-sm">Description</span>
                   </label>
-                  <div className="border flex items-center rounded-xl ">
+                  <div className="border border-base-300 flex items-center rounded-xl ">
                     <textarea
                       defaultValue={descriptionD}
                       name="description"

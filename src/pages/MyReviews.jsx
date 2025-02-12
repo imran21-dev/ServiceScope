@@ -192,7 +192,7 @@ const MyReviews = () => {
             animate={{ opacity: 1, scale: 1 }} // Animate to visible
             exit={{ opacity: 0, y: -50 }} // Exit animation
             transition={{ duration: 0.2 }}
-            className="lg:w-3/5 w-11/12 border bg-white rounded-2xl lg:p-4 shadow-lg flex flex-col "
+            className="lg:w-3/5 w-11/12 border border-base-100 bg-base-100 rounded-2xl lg:p-4 shadow-lg flex flex-col "
           >
             <div className="text-right border-b pb-3">
               <IconButton
@@ -202,7 +202,7 @@ const MyReviews = () => {
                 }}
                 aria-label="delete"
               >
-                <IoMdClose />
+                <IoMdClose className="text-red-500"/>
               </IconButton>
             </div>
 
@@ -231,7 +231,7 @@ const MyReviews = () => {
                 placeholder={text}
                 defaultValue={text}
                 rows="10"
-                className="border text-sm md:text-base w-full rounded-xl outline-transparent focus:outline-none resize-none p-3"
+                className="border border-base-300 bg-transparent text-sm md:text-base w-full rounded-xl outline-transparent focus:outline-none resize-none p-3"
               ></textarea>
 
               <button className="btn bg-pColor text-xs md:text-[14px] w-full rounded-full border-none min-h-max h-max py-3 text-white mt-4 mb-4">

@@ -207,7 +207,7 @@ const Register = () => {
             <label className="label">
               <span className="label-text">Name</span>
             </label>
-            <div className="border flex items-center rounded-xl ">
+            <div className="border border-base-300 flex items-center rounded-xl ">
               <RiUser2Fill className="md:text-xl ml-2" />
               <input
                 type="text"
@@ -223,7 +223,7 @@ const Register = () => {
             <label className="label">
               <span className="label-text">Photo URL</span>
             </label>
-            <div className="border flex items-center rounded-xl ">
+            <div className="border border-base-300 flex items-center rounded-xl ">
               <RiLink className="md:text-xl ml-2" />
               <input
                 type="url"
@@ -239,7 +239,7 @@ const Register = () => {
             <label className="label">
               <span className="label-text">Email</span>
             </label>
-            <div className="border flex items-center rounded-xl ">
+            <div className="border border-base-300 flex items-center rounded-xl ">
               <RiMailFill className="md:text-xl ml-2" />
               <input
                 type="email"
@@ -255,7 +255,7 @@ const Register = () => {
             <label className="label">
               <span className="label-text">Password</span>
             </label>
-            <div className="border flex items-center rounded-xl ">
+            <div className="border border-base-300 flex items-center rounded-xl ">
               <RiLock2Fill className="md:text-xl ml-2" />
               <input
                 type={showPassword ? "password" : "text"}
@@ -305,7 +305,7 @@ const Register = () => {
         </form>
         <div className="md:w-3/12 w-3/4 mx-auto flex flex-col items-center">
       <div className="divider">or</div>
-      <Button onClick={handleSignIn} className="myBtn"><img className="w-4 mr-2" src={googlepng} alt="" /> Google</Button>
+      <Button onClick={handleSignIn} className="myBtn !text-white"><img className="w-4 mr-2" src={googlepng} alt="" /> Google</Button>
       </div>
       </div>
     </div>

@@ -78,7 +78,7 @@ const NewsLetter = () => {
           </button>
         </div>
       </form>
-      <p className="md:w-2/4 text-center mx-auto pt-3 text-sm px-5 text-secondaryTextColor/70">
+      <p className="md:w-2/4 text-center mx-auto pt-3 text-sm px-5 opacity-70">
         Subscribe to our newsletter and never miss out on trusted reviews,
         expert recommendations, and top-rated services delivered right to your
         inbox.

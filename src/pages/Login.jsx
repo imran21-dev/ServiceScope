@@ -152,7 +152,7 @@ const Login = () => {
           <label className="label">
             <span className="label-text">Email</span>
           </label>
-          <div className="border flex items-center rounded-xl ">
+          <div className="border border-base-300 flex items-center rounded-xl ">
             <RiMailFill className="md:text-xl ml-2" />
             <input
               type="email"
@@ -168,7 +168,7 @@ const Login = () => {
           <label className="label">
             <span className="label-text">Password</span>
           </label>
-          <div className="border flex items-center rounded-xl ">
+          <div className="border border-base-300 flex items-center rounded-xl ">
             <RiLock2Fill className="md:text-xl ml-2" />
             <input
               type={showPassword ? "password" : "text"}
@@ -208,7 +208,7 @@ const Login = () => {
       </form>
       <div className="md:w-3/12 w-3/4 mx-auto flex flex-col items-center">
       <div className="divider">or</div>
-      <Button onClick={handleSignIn} className="myBtn"><img className="w-4 mr-2" src={googlepng} alt="" /> Google</Button>
+      <Button onClick={handleSignIn} className="myBtn !text-white"><img className="w-4 mr-2" src={googlepng} alt="" /> Google</Button>
       </div>
      </section>
 
