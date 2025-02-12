@@ -528,7 +528,7 @@ const ServiceDetails = () => {
             </div>
           </div>
 
-          <div className="w-full border h-max p-4 rounded-2xl">
+          <div className="w-full border border-base-300 h-max p-4 rounded-2xl">
             <div className="flex items-center justify-between">
               <div className="flex items-center pb-2 gap-2">
                 <img
@@ -559,7 +559,7 @@ const ServiceDetails = () => {
                 required
                 rows="10"
                 name="text"
-                className={`custom-scrollbar lg:text-base text-sm duration-150 resize-none  w-full outline-transparent  ${
+                className={`custom-scrollbar focus:outline-none bg-transparent lg:text-base text-sm duration-150 resize-none  w-full outline-transparent  ${
                   write ? "lg:h-64 h-44" : "h-0 "
                 }`}
                 placeholder="Write your review here... Share your experience, thoughts, or feedback about the service!"

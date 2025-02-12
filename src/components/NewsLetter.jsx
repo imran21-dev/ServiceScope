@@ -66,7 +66,7 @@ const NewsLetter = () => {
         Join Service Scope Newsletter!
       </h1>
       <form onSubmit={handleSubscription}>
-        <div className="border md:w-2/4 mx-3 md:mx-auto rounded-full flex items-center justify-between">
+        <div className="border border-base-300 md:w-2/4 mx-3 md:mx-auto rounded-full flex items-center justify-between">
           <input
             type="email"
             name="email"

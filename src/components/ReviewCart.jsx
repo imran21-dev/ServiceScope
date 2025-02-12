@@ -105,7 +105,7 @@ const ReviewCart = ({ review, setDemoLoad, demoLoad,updateReview,loadData }) => 
 
 
   return (
-    <div className="border w-full rounded-2xl overflow-hidden">
+    <div className="border border-base-300 w-full rounded-2xl overflow-hidden">
       <div className="flex items-center gap-3 px-3 pt-3 pb-2 ">
         <img
           onError={handlePhoto}
@@ -127,7 +127,7 @@ const ReviewCart = ({ review, setDemoLoad, demoLoad,updateReview,loadData }) => 
           <h2 className=" text-right text-xs lg:text-sm">{relativeTime}</h2>
         </Tooltip>
       </div>
-      <hr className="mx-5" />
+       <div className="h-[1px] mx-auto w-11/12 bg-base-300"></div>
       <div className="flex items-center justify-between relative">
       {edited ? <h2 className="text-xs mx-3 mt-3 text-white font-medium bg-pColor  px-2 py-[1px] rounded-full w-max">Edited</h2> : <span></span>}
       {currentEmail === userEmail && <div className="flex items-center gap-1 text-secondaryTextColor/50 absolute top-[2px] right-2">
@@ -137,7 +137,7 @@ const ReviewCart = ({ review, setDemoLoad, demoLoad,updateReview,loadData }) => 
         </div>}
       </div>
       <p className=" px-3 pt-6 pb-3 text-sm lg:text-base">{text}</p>
-      <Link className="flex items-center gap-3 cursor-pointer py-2 px-3 border-t hover:bg-secondaryTextColor/5">
+      <Link className="flex items-center gap-3 cursor-pointer py-2 px-3 border-t border-base-300 hover:bg-secondaryTextColor/5">
         <img
           className="lg:w-7 lg:h-7 w-6 h-6 border border-pColor rounded-full object-cover"
           onError={handleImage}

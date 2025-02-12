@@ -23,7 +23,7 @@ useEffect(()=> {
 },[])
 
     return (
-        <div className="md:w-10/12 mx-3 md:mx-auto py-10">
+        <div className="md:w-10/12  mx-3 md:mx-auto py-10">
             
             <h1 className="text-lg md:text-xl font-semibold">Top Reviews</h1>
 

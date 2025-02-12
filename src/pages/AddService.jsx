@@ -110,7 +110,7 @@ const AddService = () => {
                     <title>Add Service | Service Scope</title>
                   </Helmet>
       <h1 className="text-lg md:text-2xl font-bold">Add a New Service</h1>
-      <p className="py-1 text-secondaryTextColor/50 md:pb-5 text-sm md:text-base">
+      <p className="py-1 md:pb-5 text-sm md:text-base">
         Provide details to expand your offerings.
       </p>
 
@@ -119,7 +119,7 @@ const AddService = () => {
           <label className="label">
             <span className="text-xs md:text-sm">Service Title</span>
           </label>
-          <div className="border flex items-center rounded-xl ">
+          <div className="border border-base-300 flex items-center rounded-xl ">
             <input
               type="text"
               name="serviceTitle"
@@ -134,7 +134,7 @@ const AddService = () => {
           <label className="label">
             <span className="text-xs md:text-sm">Service Image</span>
           </label>
-          <div className="border flex items-center rounded-xl ">
+          <div className="border border-base-300 flex items-center rounded-xl ">
             <input
               type="url"
               name="serviceImage"
@@ -150,7 +150,7 @@ const AddService = () => {
             <label className="label">
               <span className="text-xs md:text-sm">Company Name</span>
             </label>
-            <div className="border flex items-center rounded-xl ">
+            <div className="border border-base-300 flex items-center rounded-xl ">
               <input
                 type="text"
                 name="companyName"
@@ -165,7 +165,7 @@ const AddService = () => {
             <label className="label">
               <span className="text-xs md:text-sm">Website URL</span>
             </label>
-            <div className="border flex items-center rounded-xl ">
+            <div className="border border-base-300 flex items-center rounded-xl ">
               <input
                 type="url"
                 name="website"
@@ -180,7 +180,7 @@ const AddService = () => {
             <label className="label">
               <span className="text-xs md:text-sm">Price</span>
             </label>
-            <div className="border flex items-center rounded-xl ">
+            <div className="border border-base-300 flex items-center rounded-xl ">
               <input
                 type="number"
                 name="price"
@@ -205,7 +205,7 @@ const AddService = () => {
           <label className="label">
             <span className="text-xs md:text-sm">Description</span>
           </label>
-          <div className="border flex items-center rounded-xl ">
+          <div className="border border-base-300 flex items-center rounded-xl ">
             <textarea
               name="description"
               rows="6"

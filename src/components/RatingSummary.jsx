@@ -15,7 +15,7 @@ const RatingSummary = ({allReviews}) => {
   });
 
   return (
-    <div className="lg:rounded-2xl border p-4 mb-6">
+    <div className="lg:rounded-2xl border border-base-300 p-4 mb-6">
       <h3 className="lg:text-xl flex items-center gap-1 font-semibold pb-1">
         Reviews <GiStaryu className="text-pColor"/> {isNaN(averageRating) ? '0' : averageRating}
       </h3>
@@ -27,7 +27,7 @@ const RatingSummary = ({allReviews}) => {
             <label>
               {star}-star
             </label>
-            <div className="rounded-full overflow-hidden h-2 lg:h-3 relative col-span-4 bg-gray-100">
+            <div className="rounded-full overflow-hidden h-2 lg:h-3 relative col-span-4 bg-base-200">
               <div
                 className={`absolute bg-pColor rounded-full h-full `} 
                 style={{ width: `${percentage}%` }}

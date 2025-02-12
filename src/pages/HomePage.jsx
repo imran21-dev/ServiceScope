@@ -82,7 +82,7 @@ const HomePage = () => {
         </Swiper>
         
       </section>
-       <section className="bg-pColor/10 pb-2">
+       <section className="bg-base-200 pb-2">
        <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}

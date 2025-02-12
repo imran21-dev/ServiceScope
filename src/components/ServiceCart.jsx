@@ -10,7 +10,7 @@ const ServiceCart = ({service}) => {
       e.target.src = fakeThumb
     }
     return (
-        <div className="card  duration-200 rounded-3xl  border border-secondaryTextColor/5">
+        <div className="card  duration-200 rounded-3xl  border border-base-300">
         <figure className="p-2 md:p-5">
           <img
           className="w-full object-cover h-44 md:h-52 rounded-2xl"
@@ -20,7 +20,7 @@ const ServiceCart = ({service}) => {
         </figure>
         <div className="card-body px-2 md:px-5 pt-0 pb-2 md:pb-5">
           <h2 className="md:text-xl font-bold truncate">{serviceTitle}</h2>
-          <p className="line-clamp-2 text-sm md:text-base md:h-12 text-secondaryTextColor/50">{description}</p>
+          <p className="line-clamp-2 text-sm md:text-base md:h-12 opacity-50">{description}</p>
          
          <div className="flex items-center justify-between pt-2">
          <Link to={`/service-details/${_id}`}>

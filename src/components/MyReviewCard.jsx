@@ -79,12 +79,8 @@ const MyReviewCard = ({ review, setDemoLoad, demoLoad,handleUpdate,setLoadData }
   }
 
   return (
-    <div className="border rounded-2xl p-3 flex flex-col lg:flex-row justify-between ">
+    <div className="border border-base-300 rounded-2xl p-3 flex flex-col lg:flex-row justify-between ">
    
-  
-
-
-
       <div className="flex  gap-3 lg:w-3/12">
         <img
           className="w-24 h-16 object-cover rounded-lg"

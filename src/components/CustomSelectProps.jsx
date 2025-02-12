@@ -18,7 +18,7 @@ const CustomSelectProp = () => {
     control: (base) => ({
       ...base,
       height : '42px',
-      
+   
       borderRadius: '0.75rem',
       textAlign: 'left',  
       boxShadow: 'none', 

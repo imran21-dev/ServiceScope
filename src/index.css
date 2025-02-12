@@ -25,7 +25,7 @@ transition: .2s ease-in-out;
 
 
 .myBtn{
-@apply w-max md:!text-sm !text-xs !px-6 !bg-black/5 !text-black hover:!bg-pColor !shadow-none hover:!text-white !rounded-full !capitalize
+@apply w-max md:!text-sm !text-xs !px-6 !bg-black/5 !bg-pColor !shadow-none hover:!text-white !rounded-full !capitalize
 }
 
 .slider-li{
